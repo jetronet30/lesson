@@ -1,3 +1,4 @@
+import timeit
 # kor = 23,45,11,78, 'hello', 'world'
 # print(type(kor))
 # print(kor)
@@ -60,3 +61,6 @@ print(list(kor_6))
 print(tuple(kor_6))
 
 print(kor_6 + kor_7)
+
+print(timeit.timeit('x=(1, 2, 3, 4, 5)'))
+print(timeit.timeit('x=[1, 2, 3, 4, 5]'))
